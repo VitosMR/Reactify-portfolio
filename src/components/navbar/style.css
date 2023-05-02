@@ -1,5 +1,4 @@
 /* Nav */
-
 .nav {
 	padding: 20px 0;
 	background-color: var(--nav-bg);
@@ -28,6 +27,8 @@
 
 .logo strong {
 	font-weight: 700;
+	color: #dd5d16;
+
 }
 
 .nav-list {

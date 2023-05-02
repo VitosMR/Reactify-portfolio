@@ -13,7 +13,7 @@ const Home = () => {
 					<ul className="content-list">
 						<li className="content-list__item">
 							<div className="skils">
-							<h1>Frontend</h1>
+							<h1>My skils</h1>
 							<li><h3>HTML</h3>
 							<span className="bar"> <span className="html"></span></span>
 							</li>	
@@ -26,9 +26,6 @@ const Home = () => {
 							<li><h3>Js</h3>
 							<span className="bar"> <span className="js"></span></span>
 							</li>
-						</div>
-						<div className="skils">
-							<h1>Backend</h1>
 							<li><h3>NodeJS</h3>
 							<span className="bar"> <span className="NodeJS"></span></span>
 							</li>	

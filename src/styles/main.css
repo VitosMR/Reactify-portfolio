@@ -10,17 +10,19 @@
 	--purple: #5c62ec;
 
 	/* Nav */
-	--nav-bg: var(--black);
+	--nav-bg: var(--white);
 	--nav-border: var(--black-border);
 	--nav-text: var(--white);
 
 	/* Header */
-	--header-bg: var(--black);
-	--header-text: var(--white);
+	--header-bg: var(--white);
+	--header-text: var(--black);
+	--text-color: var(--black);
+
 
 	/* Footer */
-	--footer-bg: var(--black);
-	--footer-text: var(--white);
+	--footer-bg: var(--white);
+	--footer-text: var(--black);
 
 	/* Light mode */
 	--page-bg: var(--white);
@@ -39,6 +41,17 @@
 	--text-color: var(--white);
 
 	--title-1: var(--white);
+
+	--footer-bg: var(--black);
+	--footer-text: var(--white);
+
+
+	--nav-border: var(--black-border);
+	--nav-bg: var(--black);
+
+
+	--header-bg: var(--black);
+	--header-text: var(--white);
 
 	--project-card-bg: var(--black);
 	--project-card-text: var(--white);
@@ -237,15 +250,13 @@ body {
 h1{
 	text-align: center;
 	color: #dd5d16;
-	
-	
 }
 h3{
 	margin: 5px;
 	color: #5c62ec;
 }
 .skils{
-  width: 500px;
+  width: 90%;
   margin: 60px auto;
   color: #fff;
   padding: 20px;
@@ -275,6 +286,18 @@ h3{
 	float: left;
 	background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
 }
+.NodeJS{
+	width: 50%;
+	animation: NodeJS 3s;
+}
+.MySQL{
+	width: 55%;
+	animation: MySQL 3s;
+}
+.PHP{
+	width: 30%;
+	animation: PHP 3s;
+}
 .html{
 	width: 90%;
 	animation: html 3s;
@@ -291,18 +314,32 @@ h3{
 	width: 65%;
 	animation: js 3s;
 }
-.NodeJS{
-	width: 50%;
-	animation: html 3s;
+
+
+
+@keyframes NodeJS{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 50%;
+	}
 }
-.MySQL{
-	width: 55%;
-	animation: css 3s;
-}
-.PHP{
-	width: 30%;
-	animation: react 3s;
-}
+@keyframes MySQL{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 55%;
+	}
+}@keyframes PHP{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 30%;
+	}
+} 
 @keyframes html{
 	0%{
 		width: 0%;
@@ -334,29 +371,6 @@ h3{
 	}
 }
 
-@keyframes NodeJS{
-	0%{
-		width: 0%;
-	}
-	100%{
-		width: 50%;
-	}
-}
-@keyframes MySQL{
-	0%{
-		width: 0%;
-	}
-	100%{
-		width: 55%;
-	}
-}@keyframes PHP{
-	0%{
-		width: 0%;
-	}
-	100%{
-		width: 30%;
-	}
-} 
 @media (max-width: 620px) {
 	/* Header  */
 

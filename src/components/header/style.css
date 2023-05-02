@@ -16,6 +16,9 @@
 	color: var(--header-text);
 	text-align: center;
 }
+strong{
+	color: #5c62ec;
+}
 
 .header__wrapper {
 	padding: 0 15px;
